@@ -1,6 +1,23 @@
-.profileimg {
+.profileimgl {
   height: 150px;
   width: 150px;
   border-radius: 50%;
   border: 5px solid whitesmoke;
+  float: left;
+}
+.profileimgr {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 5px solid whitesmoke;
+  float: right;
+}
+
+.profileimgrj {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 5px solid whitesmoke;
+  float: right;
+  transform: rotate(90deg);
 }

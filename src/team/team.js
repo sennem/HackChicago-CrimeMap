@@ -7,10 +7,7 @@ export class TeamPage extends React.Component {
   render() {
     return (
       <div>
-        <AnchorLink href="#tester">Things</AnchorLink>
-        <br />
         <ProfileWhole />
-        <br />
       </div>
     );
   }

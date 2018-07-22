@@ -16,6 +16,7 @@ import {
 } from "../teamimages/teamimages.js";
 import { Github, Linkedin } from "../teamicons/teamicons.js";
 import AnchorLink from "react-anchor-link-smooth-scroll";
+
 export class ProfileWhole extends React.Component {
   render() {
     return (
@@ -45,39 +46,38 @@ export class ProfileWhole extends React.Component {
         </table>
 
         <div name="Mark" id="Mark" className="center">
-          {/*
-          <MarkImg />
-          <br />
-          <table>
-            <tbody>
-              <tr>
-                <td><Github glink="https://github.com/sennem"/></td>
-                <td><Linkedin ilink="https://www.linkedin.com/in/mark-senne-b45807138/" /></td>
-              </tr>
-            </tbody>
-          </table>
-          <br />
-          <MarkBio />
-          */}
-
           <table>
             <tr>
-              <div id="mark-image">
-                <td>
-                  <MarkImg />
-                </td>
-              </div>
-              <div id="mark-bio">
-                <td>
-                  <MarkBio />
-                </td>
-              </div>
+              <td>
+                <MarkImg />
+                <MarkBio />
+              </td>
             </tr>
           </table>
+          <table>
+            <tbody>
+              <tr>
+                <td>
+                  <Github glink="https://github.com/sennem" />
+                </td>
+                <td>
+                  <Linkedin ilink="https://www.linkedin.com/in/mark-senne-b45807138/" />
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </div>
-        <div name="Arnav" id="Arnav" className="center">
-          <ArnavImg />
-          <br />
+        <div id="Arnav">
+          <table>
+            <tr>
+              <td>
+                <ArnavImg />
+                <div class="bump">
+                  <ArnavBio />
+                </div>
+              </td>
+            </tr>
+          </table>
           <table>
             <tbody>
               <tr>
@@ -90,30 +90,18 @@ export class ProfileWhole extends React.Component {
               </tr>
             </tbody>
           </table>
-          <br />
-          <ArnavBio />
         </div>
-        <div name="Will" id="Will" className="center">
-          <WillImg />
-          <br />
+        <div id="Will">
           <table>
-            <tbody>
-              <tr>
-                <td>
-                  <Github glink="https://github.com/hackwill" />
-                </td>
-                <td>
-                  <Linkedin ilink="https://www.linkedin.com/in/mark-senne-b45807138/" />
-                </td>
-              </tr>
-            </tbody>
+            <tr>
+              <td>
+                <WillImg />
+                <div class="bump">
+                  <WillBio />
+                </div>
+              </td>
+            </tr>
           </table>
-          <br />
-          <WillBio />
-        </div>
-        <div name="Jerry" id="Jerry" className="center">
-          <JerryImg />
-          <br />
           <table>
             <tbody>
               <tr>
@@ -126,17 +114,23 @@ export class ProfileWhole extends React.Component {
               </tr>
             </tbody>
           </table>
-          <br />
-          <JerryBio />
         </div>
-        <div name="Christian" id="Christian" className="center">
-          <ChristianImg />
-          <br />
+        <div id="Jerry">
+          <table>
+            <tr>
+              <td>
+                <JerryImg />
+                <div class="bump">
+                  <JerryBio />
+                </div>
+              </td>
+            </tr>
+          </table>
           <table>
             <tbody>
               <tr>
                 <td>
-                  <Github glink="https://github.com/nxvgalang " />
+                  <Github glink="https://github.com/ghulearnav" />
                 </td>
                 <td>
                   <Linkedin ilink="https://www.linkedin.com/in/mark-senne-b45807138/" />
@@ -144,8 +138,30 @@ export class ProfileWhole extends React.Component {
               </tr>
             </tbody>
           </table>
-          <br />
-          <ChristianBio />
+        </div>
+        <div id="Christian">
+          <table>
+            <tr>
+              <td>
+                <ChristianImg />
+                <div class="bump">
+                  <ChristianBio />
+                </div>
+              </td>
+            </tr>
+          </table>
+          <table>
+            <tbody>
+              <tr>
+                <td>
+                  <Github glink="https://github.com/nxvgalang" />
+                </td>
+                <td>
+                  <Linkedin ilink="https://www.linkedin.com/in/mark-senne-b45807138/" />
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
     );

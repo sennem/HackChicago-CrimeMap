@@ -1,6 +1,6 @@
 .center {
   text-align: center;
-  border: 1px solid transparent;
+  /*border: 1px solid transparent;*/
 }
 
 #grad1 {
@@ -8,28 +8,31 @@
   background: red; /* For browsers that do not support gradients */
   background: linear-gradient(
     to bottom right,
-    #004e92,
-    #000428
+    #ffc371,
+    #ff5f6d
   ); /* Standard syntax (must be last) */
 }
+.fl {
+  float: left;
+}
 /*.marksection{
-  background-color: #2193b0;
+background-color: #2193b0;
 }
 
 .arnavsection{
-  background-color: #033fc1;
+background-color: #033fc1;
 }
 
 .willsection{
-  background-color: #5fbed3;
+background-color: #5fbed3;
 }
 
 .jerrysection{
-  background-color: #64c5db;
+background-color: #64c5db;
 }
 
 .christiansection{
-  background-color: #db7f1e;
+background-color: #db7f1e;
 }*/
 
 table {
@@ -41,7 +44,6 @@ a {
   text-decoration: none;
 }
 
-#mark-image,
-#mark-bio {
-  border: 3px solid red;
+.bump {
+  text-align: center;
 }

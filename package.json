@@ -7,7 +7,10 @@
   "dependencies": {
     "react": "16.3.2",
     "react-anchor-link-smooth-scroll": "1.0.10",
+    "react-awesome-button": "4.2.1",
     "react-dom": "16.3.2",
+    "react-geolocation": "1.0.3",
+    "react-ripples": "1.1.2",
     "react-scripts": "1.1.4"
   },
   "devDependencies": {},
