@@ -1,0 +1,47 @@
+.center {
+  text-align: center;
+  border: 1px solid transparent;
+}
+
+#grad1 {
+  height: 100%;
+  background: red; /* For browsers that do not support gradients */
+  background: linear-gradient(
+    to bottom right,
+    #004e92,
+    #000428
+  ); /* Standard syntax (must be last) */
+}
+/*.marksection{
+  background-color: #2193b0;
+}
+
+.arnavsection{
+  background-color: #033fc1;
+}
+
+.willsection{
+  background-color: #5fbed3;
+}
+
+.jerrysection{
+  background-color: #64c5db;
+}
+
+.christiansection{
+  background-color: #db7f1e;
+}*/
+
+table {
+  margin: 0 auto;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+#mark-image,
+#mark-bio {
+  border: 3px solid red;
+}
