@@ -4,7 +4,7 @@ import "./teambios.css";
 export class MarkBio extends React.Component {
   render() {
     return (
-      <div>
+      <div id="mark-bio" className="bio">
         <h5>
           Mark is a co-founder and the Operations Director of Mason Hack Club.{" "}
           <br />
@@ -24,7 +24,7 @@ export class MarkBio extends React.Component {
 export class ArnavBio extends React.Component {
   render() {
     return (
-      <div>
+      <div id="arnav-bio" className="bio">
         <br />
         <br />
         <h5>
@@ -39,7 +39,7 @@ export class ArnavBio extends React.Component {
 export class WillBio extends React.Component {
   render() {
     return (
-      <div>
+      <div id="will-bio" className="bio">
         <h5>
           <br />
           <br />
@@ -54,14 +54,14 @@ export class WillBio extends React.Component {
 export class JerryBio extends React.Component {
   render() {
     return (
-      <div>
+      <div id="jerry-bio" className="bio">
         <h5>
-          Jerry bio and github and linkedin link plz Jerry has enjoyed <br />programming
-          ever since taking a programming course freshman year. <br />The
-          problem solving combined with the vast amount of possibilities <br />has
-          continued to keep Jerry engaged in the IT community. <br />
-          Not only has IT been a way to gain knowledge and skill, but also has
-          been a great way to meet great <br /> people with the same passion.
+          Jerry has enjoyed programming ever since taking a programming course
+          freshman year. <br />The problem solving combined with <br /> the vast
+          amount of possibilities has continued to keep Jerry engaged in the IT
+          community. Not only has <br /> IT been a way to gain knowledge and
+          skill, but <br /> also has been a great way to meet great people with
+          the same passion.
         </h5>
       </div>
     );
@@ -70,7 +70,7 @@ export class JerryBio extends React.Component {
 export class ChristianBio extends React.Component {
   render() {
     return (
-      <div>
+      <div id="christian-bio" className="bio">
         <h5>
           <br />
           <br />

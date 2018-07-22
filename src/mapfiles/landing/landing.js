@@ -4,6 +4,7 @@ import "./landing.css";
 import Geolocation from "react-geolocation";
 import Ripples from "react-ripples";
 import { MapApp } from "../mapapp/mapapp.js";
+import { Textfield } from "react-mdl";
 
 export class Landing extends React.Component {
   gotomapapp() {
@@ -36,7 +37,7 @@ export class Landing extends React.Component {
                         <input
                           type="text"
                           id="longitude"
-                          placeholder="longitude"
+                          placeholder="Longitude..."
                           value={longitude}
                         />
                       </td>
@@ -44,7 +45,7 @@ export class Landing extends React.Component {
                         <input
                           type="text"
                           id="latitude"
-                          placeholder="latitude"
+                          placeholder="Latitude..."
                           value={latitude}
                         />
                       </td>

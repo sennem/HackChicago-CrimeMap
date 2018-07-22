@@ -21,25 +21,31 @@ export class ProfileWhole extends React.Component {
   render() {
     return (
       <div className="peoplesections" id="grad1">
-        <h4 className="center">Our team consists of:</h4>
+        <h4 className="center" id="header">
+          The Team
+        </h4>
 
-        <table>
+        <table id="nav-bar">
           <tbody>
             <tr>
               <AnchorLink href="#Mark">
-                <td>Mark</td>
+                <td className="single-nav" id="mark-nav">
+                  Mark
+                </td>
               </AnchorLink>
               <AnchorLink href="#Arnav">
-                <td>Arnav</td>
+                <td className="single-nav">Arnav</td>
               </AnchorLink>
               <AnchorLink href="#Will">
-                <td>Will</td>
+                <td className="single-nav">Will</td>
               </AnchorLink>
               <AnchorLink href="#Jerry">
-                <td>Jerry</td>
+                <td className="single-nav">Jerry</td>
               </AnchorLink>
               <AnchorLink href="#Christian">
-                <td>Christian</td>
+                <td className="single-nav" id="christian-nav">
+                  Christian
+                </td>
               </AnchorLink>
             </tr>
           </tbody>

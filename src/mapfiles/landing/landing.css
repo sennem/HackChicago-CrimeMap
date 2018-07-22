@@ -24,14 +24,24 @@ table {
 }
 
 .enlargewelcome {
-  font-size: 500%;
+  font-size: 75px;
   color: white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 #viewbutton {
   border-radius: 12px;
-  width: 100px;
-  height: 30px;
+  width: 200px;
+  height: 60px;
+  font-size: 23px;
   border: 3px solid blue;
   background-color: deepskyblue;
+}
+
+#longitude,
+#latitude {
+  font-size: 20px;
+  padding-left: 20px;
+  padding-top: 7px;
+  padding-bottom: 7px;
 }
